@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rêve_et_ Ruban</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #fff8f0;
+      color: #444;
+    }
+    header {
+      background-color: brown  ;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    nav {
+      background-color: brown;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: brown;
+      margin-bottom: 20px;
+      font-weight: 700;
+      border-bottom: 3px solid #b76e79;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .service-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+    .service-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      height: 200px;
+    }
+    form {
+      background: white;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #555;
+    }
+    form input, form textarea, form select {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 2px solid #b76e79;
+      border-radius: 8px;
+      font-size: 1rem;
+      resize: vertical;
+      font-family: inherit;
+    }
+    form button {
+      background-color: brown;
+      color: white;
+      font-weight: 700;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #914a56;
+    }
+    footer {
+      background-color: brown;
+      color: white;
+      text-align: center;
+      padding: 12px 0;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+    @media(max-width: 600px) {
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+      .service-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>REVE & RUBAN</h1>
+    <p>Décoration de mariage et de fête sur mesure</p>
+    <p> By ARIEL TRAH</p>
+    <img src="C:\Users\LENOVO\Downloads\A7FD3A8B-E4E5-4D71-ABB6-4B52382695DB.jpeg"/>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="C:\Users\LENOVO\Downloads\221eafe8-e70c-42e7-b75a-95dddeb14805.jpeg" alt="Décoration mariage"/>
+        <h3>Décoration Mariage</h3>
+        <p>Création d’ambiances élégantes et personnalisées pour votre jour J.</p>
+      </div>
+      <div class="service-card">
+        <img src="C:\Users\LENOVO\Downloads\39FC4B17-AA77-4CCC-A13E-CE5DA5484A0F (1).jpeg"  alt="Décoration anniversaire"/>
+        <h3>Décoration Fête</h3>
+        <p>Des décorations thématiques pour anniversaires et événements privés.</p>
+      </div>
+      <div class="service-card">
+        <img src="C:\Users\LENOVO\Downloads\9a7c43bd-9582-4f4b-94a4-bcc60a08655d.jpeg" alt="Décoration sur mesure"/>
+        <h3>Décor sur mesure</h3>
+        <p>Conception unique adaptée à vos envies et votre budget.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Galerie</h2>
+    <div class="gallery">
+      <img src="C:\Users\LENOVO\Downloads\d1e97e97-485d-4c22-84e5-ab5a8ef1da4e.jpeg" alt="Décoration 1" />
+      <img src="C:\Users\LENOVO\Downloads\191E2456-25C1-42F5-9E46-E89EBBB815E1.jpeg" alt="Décoration 2" />
+      <img src="C:\Users\LENOVO\Downloads\9848fe2a-0a69-42c0-b926-2aff59e7ac36.jpeg" alt="Décoration 3" />
+      <img src="C:\Users\LENOVO\Downloads\ceea37b2-c0d6-4634-bbf1-c993ff30464d.jpeg" alt="Décoration 4" />
+      <img src="C:\Users\LENOVO\Downloads\93bdaf21-7436-4d71-9b88-c5bb84698364.jpeg" alt="Décoration 5" />
+      <img src="C:\Users\LENOVO\Downloads\IMG_2237.jpeg" alt="Décoration 6" />
+      <img src="C:\Users\LENOVO\Downloads\4717746f-540b-4e32-805e-66606227ef8c.jpeg" alt="Décoration 7" />
+      <img src="C:\Users\LENOVO\Downloads\2342fede-e502-4a01-9bb3-5a06061648bc.jpeg" alt="Décoration 8" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form id="contactForm" onsubmit="return handleSubmit(event)">
+      <label for="name">Nom complet</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Téléphone</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="service">Service souhaité</label>
+      <select id="service" name="service" required>
+        <option value="">-- Choisissez un service --</option>
+        <option value="mariage">Décoration Mariage</option>
+        <option value="fete">Décoration Fête</option>
+        <option value="sur-mesure">Décor sur mesure</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="formResponse" style="color: white; font-weight: bold; display:none; margin-top: 10px;"></p>
+  </section>
+
+  <footer>
+    © 2025 Rêve Ruban - Tous droits réservés
+  </footer>
+
+  <script>
+    function handleSubmit(event) {
+      event.preventDefault();
+      const form = event.target;
+      // Simulation d'envoi
+      document.getElementById('habibbado1210@gmail.com').style.display = 'block';
+      document.getElementById('formResponse').textContent = 'Merci pour votre message, nous vous contacterons bientôt !';
+      form.reset();
+      return false;
+    }
+  </script>
+
+</body>
+</html>
